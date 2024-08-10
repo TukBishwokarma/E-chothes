@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #eeee;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeee;
+    padding: 17px;
+    box-shadow: 0px 2px 2px 2px rgb(181, 179, 179);
+}
+
+nav .logo {
+    margin-left: 22px;
+    font-size: 22px;
+}
+
+ul {
+    margin-right: 45px;
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+ul li a {
+    margin-inline: 22px;
+    font-size: 20px;
+}
+
+ul li i {
+    font-size: 22px;
+}
+
+ul li #home {
+    color: aqua;
+}
+
+ul li a:hover {
+    border-bottom: 2px solid rgb(236, 19, 120);
+    cursor: pointer;
+}
+
+ul li i:hover {
+    color: rgb(128, 128, 128);
+    cursor: pointer;
+}
+
+ul li i {
+    color: rgb(144, 47, 255);
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main .mainText {
+    margin-top: 144px;
+}
+
+.main .mainText h1 {
+    font-size: 44px;
+}
+
+.mainText .top {
+    color: aqua;
+}
+
+.mainText button {
+    width: 145px;
+    height: 40px;
+    background-color: aqua;
+    border: none;
+    font-size: 22px;
+    color: white;
+    border-radius: 20px;
+    margin-top: 24px;
+}
+
+.mainText p {
+    margin-top: 12px;
+}
+
+.mainText button:hover {
+    border: 3px aqua;
+    background-color: transparent;
+    color: aqua;
+}
+
+.trend .head h1 {
+    text-align: center;
+    padding: 33px;
+    margin-top: 32px;
+}
+
+.head span {
+    color: rgb(46, 154, 154);
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+}
+
+.card .crd {
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    margin-inline: 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.crd img {
+    width: 85%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 21px;
+    padding: 22px;
+
+    
+}
+
+.crd h2 {
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 11px;
+}
+
+.crd .stars {
+    margin-top: 10px;
+    color: gold;
+}
+
+.crd button {
+    margin-top: auto;
+    width: 100%;
+    height: 40px;
+    background-color: aqua;
+    border: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.crd button:hover {
+    background-color: rgb(46, 154, 154);
+}
+
+.blog {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin: 15px;
+}
+
+.blogtext {
+    padding: 15px;
+}
+
+.blogtext h2 {
+    margin-bottom: 10px;
+}
+
+.blogtext p {
+    margin-bottom: 10px;
+}
+
+.blogtext a {
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.blogtext a:hover {
+    color: rgb(46, 154, 154);
+}
+
+.letter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lettertext h1 {
+    margin-bottom: 10px;
+}
+
+.inp {
+    display: flex;
+    align-items: center;
+}
+
+.inp input {
+    width: 250px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.inp button {
+    margin-left: 10px;
+    height: 40px;
+    background-color: aqua;
+    border: none;
+    color: white;
+    padding: 0 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #fff;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footertext {
+    width: 22%;
+}
+
+.footertext h2 {
+    margin-bottom: 15px;
+}
+
+.footertext p {
+    margin-bottom: 10px;
+}
